@@ -2,14 +2,14 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
-logo:
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+title: Seogbeom Blog
+logo: 
+author: seongbeom
+description: this is seongbeom blog
+email: lub8881@kakao.com
+phone: 
+address: 
+copyright: Copyright &copy; 2022 Designed by [Themefisher](https://themefisher.com) & Posted by Seongbeom
 
 menu:
   - { name: About, link: "/about" }
@@ -36,19 +36,17 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Seongbeom <br> SoC H/W designer
 
 social:
   - { icon: "ti-facebook", link: "#" }
   - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: SoC 기반의 RTL 설계를 공부하고 있는 <strong>이성범</strong>입니다. <br> 공부했던 내용을 조금씩 정리해보고자 합니다.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -56,42 +54,28 @@ blurb-btn-name: know more
 # About Page
 
 # Work Process Section
-work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-# My Team Section
-team:
-  - title: "Jack Schenziwe"
-    image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
-
-  - title: "Julias Carlie"
-    image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
-
-  - title: "John Doe"
-    image: "assets/images/team/member-3.png"
-    designation: "Designer"
+#work-process:
+#  - title: "Research and Plan"
+#    icon: "assets/images/icons/plan.png"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#
+#  - title: "Design and Develop"
+#    icon: "assets/images/icons/design.png"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#
+#  - title: "Deliver"
+#    icon: "assets/images/icons/print.png"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 #-------------------------------
 # Skills Section
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: RTL Design with Verilog HDL, color: "#fdb157", value: "70%" }
+  - { name: Computer Architecture, color: "#ffbcaa", value: "50%" }
+  - { name: Testbench Configuration, color: "#9473e6", value: "40%" }
+  - { name: Firmware code with C language, color: "#bdecf6", value: "30%" }
 
 #-------------------------------
 # Exprerience Section
@@ -99,22 +83,10 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
+      name: Research Engineer,
       icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
-    }
-  - {
-      name: UX & UI Designer,
-      icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
-    }
-  - {
-      name: Senior UI Designer,
-      icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
+      date: "Sep 2021 - ",
+      organization: "SuperGate - SoC Team",
     }
 
 #-------------------------------
@@ -123,47 +95,32 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
-    }
-  - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
-    }
-  - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: Electronic Engineering,
+      date: "2016-2021",
+      organization: "Soongsil University",
     }
 
 #-------------------------------
-# Services Section
+# Interest Section
 
-services-title: Services
+services-title: Interest
 services:
   - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: Firmware,
+      icon: ti-panel,
+      description: "#STM Board, <br>#ARM CMSIS <br>#Cortex-M Series ...",
       active: ,# Add true to select section
     }
   - {
-      name: UX Design,
+      name: RTL Design, 
       icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "#ARM Computer & <br>SoC Architecture",
       active: true, # Add true to select section
     }
   - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: FPGA,
+      icon: ti-desktop,
+      description: "#Zybo Z7-20 <br>#Zynq7000 <br>#Cortex-A9",
       active: ,# Add true to select section
     }
 
@@ -189,37 +146,37 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "RTL Design", type: "design" }
+  - { title: "Firmware", type: "firmware" }
+  - { title: "etc", type: "etc" }
 
 portfolio-items:
   - image: "assets/images/portfolio/item-1.png"
     url: "#"
     portfolio-type:
       - type: "design"
-      - type: "illustration"
+      - type: "etc"
 
   - image: "assets/images/portfolio/item-2.png"
     url: "#"
     portfolio-type:
-      - type: "branding"
+      - type: "firmware"
 
   - image: "assets/images/portfolio/item-3.png"
     url: "#"
     portfolio-type:
-      - type: "illustration"
+      - type: "etc"
 
   - image: "assets/images/portfolio/item-6.png"
     url: "#"
     portfolio-type:
       - type: "design"
-      - type: "branding"
+      - type: "firmware"
 
   - image: "assets/images/portfolio/item-8.png"
     url: "#"
     portfolio-type:
-      - type: "illustration"
+      - type: "etc"
 
   - image: "assets/images/portfolio/item-5.png"
     url: "#"
@@ -229,75 +186,44 @@ portfolio-items:
   - image: "assets/images/portfolio/item-1.png"
     url: "#"
     portfolio-type:
-      - type: "branding"
+      - type: "firmware"
 
   - image: "assets/images/portfolio/item-3.png"
     url: "#"
     portfolio-type:
       - type: "design"
-      - type: "illustration"
-      - type: "branding"
+      - type: "etc"
+      - type: "firmware"
 
   - image: "assets/images/portfolio/item-7.png"
     url: "#"
     portfolio-type:
-      - type: "illustration"
+      - type: "etc"
 
 #-------------------------------
-# Testimonials Section
+# Plan Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
+  - name: "Seongbeom"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
+    designation: "Research Engineer"
+    content: "<strong>Modern System-on-Chip Design on Arm, David J. Greaves, 2019</strong> <br>공부 중"
+ 
 #-------------------------------
-# Client Slider Section
+# Related Site Slider Section
 
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
+#client-slider-items:
+#  - logo: "assets/images/related-logo/related-logo-1.png"
+#    url: "#"
+#  - logo: "assets/images/related-logo/related-logo-blank.png"
+#    url: "#"
+#  - logo: "assets/images/related-logo/related-logo-blank.png"
+#    url: "#"
+#  - logo: "assets/images/related-logo/related-logo-blank.png"
+#    url: "#"
 
 #-------------------------------
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: lub8881@kakao.com
