@@ -99,6 +99,12 @@ education:
       date: "2016-2021",
       organization: "Soongsil University",
     }
+  - {
+      name: Natural Science,
+      date: "2016-2021",
+      organization: "Haenam High School",
+    }
+
 
 #-------------------------------
 # Interest Section
