@@ -2,8 +2,8 @@
 #-------------------------------
 # General Site Settings
 
-title: Seogbeom Blog
-logo: 
+title: Beom Blog
+logo:
 author: seongbeom
 description: this is seongbeom blog
 email: lub8881@kakao.com
@@ -85,7 +85,7 @@ experience:
   - {
       name: Research Engineer,
       icon: "icon-1.png",
-      date: "Sep 2021 - ",
+      date: "Sep 2021 - present",
       organization: "SuperGate - SoC Team",
     }
 
