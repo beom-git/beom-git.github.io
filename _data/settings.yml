@@ -72,10 +72,10 @@ blurb-btn-name: know more
 
 skills-title: Skills
 skills:
-  - { name: RTL Design with Verilog HDL, color: "#fdb157", value: "70%" }
-  - { name: Computer Architecture, color: "#ffbcaa", value: "50%" }
-  - { name: Testbench Configuration, color: "#9473e6", value: "40%" }
+  - { name: RTL Design with Verilog HDL,   color: "#fdb157", value: "70%" }
   - { name: Firmware code with C language, color: "#bdecf6", value: "30%" }
+  - { name: Computer Architecture,         color: "#ffbcaa", value: "50%" }
+  - { name: Testbench Environment Setup,   color: "#9473e6", value: "40%" }
 
 #-------------------------------
 # Exprerience Section
@@ -101,7 +101,7 @@ education:
     }
   - {
       name: Natural Science,
-      date: "2016-2021",
+      date: "2013-2015",
       organization: "Haenam High School",
     }
 
