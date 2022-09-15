@@ -5,14 +5,14 @@ body {
   line-height: 1.2;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: large;
   color: $text-color;
 }
 
 p, .paragraph {
   font-weight: 400;
   color: $text-color;
-  font-size: 15px;
+  font-size: large;
   line-height: 1.8;
   font-family: $primary-font;
   &-lg{
@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 h1, .h1{
   font-size: 80px;
   font-weight: bold;
-  @include desktop {
+  @include mobile {
     font-size: 65px;
   }
 }
@@ -37,7 +37,7 @@ h1, .h1{
 h2, .h2{
   font-size: 60px;
   font-weight: bold;
-  @include desktop {
+  @include mobile {
     font-size: 50px;
   }
 }

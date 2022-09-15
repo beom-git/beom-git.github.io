@@ -7,15 +7,18 @@ logo:
 author: seongbeom
 description: this is seongbeom blog
 email: lub8881@kakao.com
-phone: 
-address: 
-copyright: Copyright &copy; 2022 Designed by [Themefisher](https://themefisher.com) & Posted by Seongbeom
+phone: None
+address: None
+copyright: Copyright &copy; 2022 Designed by Themefisher & Posted by Seongbeom
 
 menu:
-  - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
-  - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
+  About: "/about"
+  Blog: 
+    - ALL: "/blog"
+    #- Notion Storage: "https://seong-beom.notion.site/1af57a908c6049a58cdd0c29f06b46be"
+    - ARM_CPU: "/2022/09/13/Study_Overview/"
+  Portfolio: "/portfolio"
+  Contact: "/contact"
 
 #-------------------------------
 # Google Analytics Section
@@ -46,7 +49,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: SoC 기반의 RTL 설계를 공부하고 있는 <strong>이성범</strong>입니다. <br> 공부했던 내용을 조금씩 정리해보고자 합니다.
+blurb: SoC 기반의 RTL 설계를 공부하고 있는 <strong>이성범</strong>입니다. <br> 공부하는 내용을 조금씩 정리 해보고자 합니다.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -70,12 +73,12 @@ blurb-btn-name: know more
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
+skills-title: Skills <br>(need to STD,,)
 skills:
-  - { name: RTL Design with Verilog HDL,   color: "#fdb157", value: "70%" }
-  - { name: Firmware code with C language, color: "#bdecf6", value: "30%" }
-  - { name: Computer Architecture,         color: "#ffbcaa", value: "50%" }
-  - { name: Testbench Environment Setup,   color: "#9473e6", value: "40%" }
+  - { name: RTL Design with Verilog HDL, color: "#fdb157", value: "10%" }
+  - { name: Firmware with C language,    color: "#bdecf6", value: "10%" }
+  - { name: Arm Computer Architecture,   color: "#ffbcaa", value: "10%" }
+  - { name: Testbench Environment Setup, color: "#9473e6", value: "10%" }
 
 #-------------------------------
 # Exprerience Section

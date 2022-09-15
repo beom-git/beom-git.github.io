@@ -1,5 +1,6 @@
 .page-title-alt{
   padding: 350px 0 70px;
+  overflow-x: clip;
 }
 
 .border-thick{
@@ -18,27 +19,50 @@
     position: relative;
     z-index: 1;
   }
+
   .bg-shape-1{
     position: absolute;
     left: 0;
     top: 0;
+    max-width: fit-content;
+    max-height: fit-content;
   }
+
   .bg-shape-2{
     position: absolute;
     left: 70px;
     top: 100px;
   }
+
   .bg-shape-3{
     position: absolute;
-    left: 30%;
-    top: 50px;
+    left: 5%;
+    top: 20%;
+    @include mobile {
+      left: -20%;
+      bottom: 10%;
+    }
+    @include tablet {
+      left: -20%;
+      bottom: 10%;
+    }
     transform: rotate(180deg);
+    max-width: 70vw; 
+    max-height: fit-content;
   }
 
   .bg-shape-4{
     position: absolute;
-    left: 100px;
-    bottom: 100px;
+    left: 30%;
+    bottom: 25%;
+    @include mobile {
+      left: 50%;
+      top: 25%;
+    }
+    @include tablet {
+      left: 50%;
+      top: 25%;
+    }
   }
 
   .bg-shape-5{
@@ -49,7 +73,17 @@
 
   .bg-shape-6{
     position: absolute;
-    bottom: 100px;
-    right: -100px;
+    bottom: 0%;
+    right: -10%;
+    @include mobile {
+      bottom: 10%;
+      right: -20%;
+    }
+    @include tablet {
+      bottom: 10%;
+      right: -20%;
+    }
+    max-width: 70vw; 
+    max-height: fit-content;
   }
 }
