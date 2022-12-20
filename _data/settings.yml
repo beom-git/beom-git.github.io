@@ -39,7 +39,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Seongbeom <br> SoC H/W designer
+  hero-title: Study SoC H/W design
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -75,10 +75,10 @@ blurb-btn-name: know more
 
 skills-title: Skills <br>(need to STD,,)
 skills:
-  - { name: RTL Design with Verilog HDL, color: "#fdb157", value: "10%" }
-  - { name: Firmware with C language,    color: "#bdecf6", value: "10%" }
-  - { name: Arm Computer Architecture,   color: "#ffbcaa", value: "10%" }
-  - { name: Testbench Environment Setup, color: "#9473e6", value: "10%" }
+  - { name: RTL Design with Verilog HDL, color: "#fdb157", value: "30%" }
+  - { name: Firmware & Embedded OS,      color: "#bdecf6", value: "20%" }
+  - { name: Arm Computer Architecture,   color: "#ffbcaa", value: "20%" }
+  - { name: Environment Set-up,          color: "#9473e6", value: "20%" }
 
 #-------------------------------
 # Exprerience Section
